@@ -7,15 +7,17 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: "Segoe UI",Tahoma,sans-serif;
 }
+
+/* HEADER SECTION */
 
 .header {
     background-color: #1F2937;
-    font-family: Roboto,Tahoma,sans-serif;
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    padding: 16px 100px;
+    padding: 16px 200px;
     justify-content: space-between;
 }
 
@@ -30,5 +32,50 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 24px;
+    gap: 50px;
 }
+
+/* HEADER SECTION */
+
+/* 2ND SECTION */
+
+.main1 {
+    padding: 100px 200px;
+    display: flex;
+    align-items: stretch;
+    background-color: #1F2937;
+}
+
+.main1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.main1 .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main1 .title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.main1 .subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.main1 button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px 32px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 2ND SECTION */
